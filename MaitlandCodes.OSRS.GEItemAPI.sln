@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaitlandCodes.OSRS.GEItemAPI", "MaitlandCodes.OSRS.GEItemAPI\MaitlandCodes.OSRS.GEItemAPI.csproj", "{100E78E5-3D79-4DC3-B6BE-E45AA73F5C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaitlandCodes.OSRS.GEItemAPI.Tests", "MaitlandCodes.OSRS.GEItemAPI.Tests\MaitlandCodes.OSRS.GEItemAPI.Tests.csproj", "{A7430D09-1EAF-4232-BE26-BCAA87CEE65D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F2029EC1-CBA9-4226-A03A-A5EFF4CCE439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{100E78E5-3D79-4DC3-B6BE-E45AA73F5C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100E78E5-3D79-4DC3-B6BE-E45AA73F5C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100E78E5-3D79-4DC3-B6BE-E45AA73F5C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100E78E5-3D79-4DC3-B6BE-E45AA73F5C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7430D09-1EAF-4232-BE26-BCAA87CEE65D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7430D09-1EAF-4232-BE26-BCAA87CEE65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7430D09-1EAF-4232-BE26-BCAA87CEE65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7430D09-1EAF-4232-BE26-BCAA87CEE65D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7430D09-1EAF-4232-BE26-BCAA87CEE65D} = {F2029EC1-CBA9-4226-A03A-A5EFF4CCE439}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6A2B571-DC25-429E-9F27-3DBEE55C3E1C}
+	EndGlobalSection
+EndGlobal
