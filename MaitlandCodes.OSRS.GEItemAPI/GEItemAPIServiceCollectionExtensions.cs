@@ -9,7 +9,7 @@ namespace MaitlandCodes.OSRS.GEItemAPI
         {
             serviceDescriptors
                 .AddRefitClient<IGEItemAPIClient>(new RefitSettings { UrlParameterFormatter = new ItemCategoryAsIntParameterFormatter() })
-                .ConfigureHttpClient(c => c.BaseAddress = new Uri("https://secure.runescape.com/m=itemdb_rs/api"));
+                .ConfigureHttpClient(c => c.BaseAddress = new Uri("https://secure.runescape.com/m=itemdb_oldschool/api"));
 
             return serviceDescriptors;
         }
